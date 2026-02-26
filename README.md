@@ -14,7 +14,7 @@ The data comes from Vesta's real-world e-commerce transactions and contains a wi
 
 https://www.kaggle.com/competitions/ieee-fraud-detection/data
 
-#Technicality
+# Technicality
 
 Pandas for data reading/wranging/cleanup
 Seaborn for Visualization
