@@ -1,5 +1,9 @@
 # Fraud Detection
 
+# Notebook
+Location: https://github.com/vimalkurup/fraud_detection/blob/master/Fraud_Detection.ipynb
+
+
 # Business Objective 
 Identify fraudulent transaction alerts from card transactions to reduce their fraud loss and increase their revenue; Improving fraud experience is essential to gain customer trust, integrity in financial systems and increase revenue
 
