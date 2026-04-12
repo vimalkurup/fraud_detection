@@ -1,4 +1,4 @@
-This README provides a comprehensive summary of the fraud detection project, synthesizing the technical results from your modeling iterations—specifically the performance gap between tree-based ensembles and neural networks.
+This README provides a comprehensive summary of the fraud detection project
 
 # Fraud Detection System 
 
