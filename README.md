@@ -8,7 +8,7 @@ This README provides a comprehensive summary of the fraud detection project
 
 The goal of this project is to develop a robust machine learning system capable of identifying fraudulent financial transactions in real-time.Challenges: The primary obstacle is the extreme class imbalance, where fraudulent activity represents only ~3.6% of the total data. Furthermore, the "missingness" of data in specific fields (e.g., V_Group features) is not random but serves as a high-gain indicator of fraudulent behavior.
 
-#  Potential Benefits 
+**Potential Benefits **
 
 Success in this domain reduces direct financial loss from unauthorized charges, minimizes the operational cost of manual reviews, and maintains customer trust by reducing false positives for legitimate users. Models such as these are essential to maintain integrity of financial systems
 
@@ -27,7 +27,7 @@ Engineered Features: A large set of PCA-transformed variables representing compl
 
 Original data source: The data comes from Vesta's real-world e-commerce transactions and contains a wide range of features from device type to product features The data is broken into two files identity and transaction, which are joined by TransactionID. Not all transactions have corresponding identity information. https://www.kaggle.com/competitions/ieee-fraud-detection/data
 
-# Analysis: 
+**Analysis** 
 Feature importance via XGBoost Gain and SHAP values confirmed that V_Group_11_PC2 and TransactionAmt are the strongest predictors of fraud.
 
 
@@ -54,10 +54,9 @@ Traditional accuracy was discarded as it would be 96.4 even if the model predict
 **Optimal Model: XGBoost** is the optimal model for this problem, achieving a Mean AP of 0.8201.Findings: 
 The Neural Network significantly underperformed (AP: 0.4833) compared to tree-based models. This suggests that for this specific tabular dataset, the decision-tree logic of "splitting" on missing values is more effective than the "continuous" weight adjustments of a neural network.
 
-# Notebook
-Location: https://github.com/vimalkurup/fraud_detection/blob/master/Fraud_Detection.ipynb
+**Notebook Location**: https://github.com/vimalkurup/fraud_detection/blob/master/Fraud_Detection.ipynb
 
-# Credits
+**Credits**
 https://github.com/toby-gardner-ai/uc-berkeley-aiml-course/blob/main/notebooks/Mod4_Data_Analytics.ipynb
 For Unbalanced classes, papers suggest usage of AUPRC(Area under Precision-Recall curve) over F1- Macro Citation: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118432
 
