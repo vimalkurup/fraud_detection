@@ -49,9 +49,9 @@ Feed-forward Neural Network (FNN): A deep learning approach (256-128-64 architec
 # 6. Model Evaluation
 
 Metrics: Because of the class imbalance, Mean Average Precision (AP) and Precision-Recall AUC were the primary metrics. 
-Traditional accuracy was discarded as it would be $96.4 even if the model predicted "Legit" for every case.
+Traditional accuracy was discarded as it would be 96.4 even if the model predicted "Legit" for every case.
 
-# Optimal Model: XGBoost is the optimal model for this problem, achieving a Mean AP of 0.8201.Findings: 
+**Optimal Model: XGBoost** is the optimal model for this problem, achieving a Mean AP of 0.8201.Findings: 
 The Neural Network significantly underperformed (AP: 0.4833) compared to tree-based models. This suggests that for this specific tabular dataset, the decision-tree logic of "splitting" on missing values is more effective than the "continuous" weight adjustments of a neural network.
 
 # Notebook
